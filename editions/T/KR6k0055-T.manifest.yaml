@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6k0055/T/v1
+canonical_location: https://kanripo.org/bkk/KR6k0055/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說犯戒罪報輕重經
+  identifiers:
+    krp: KR6k0055
+    cbeta: T24n1467a
+    cbeta_old_id: T24n1467a
+    authorityid: CA0001005a
+    json_key: T1467a
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T24/T24n1467a.xml
+    old_id: T24n1467a
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0055_000-T.yaml, hash: 'sha256:dd08bcc7d0e70abfd42d9015974a978ebdf1dfd6165067ca8a489f74c7329062'}
+  - {seq: 1, filename: KR6k0055_001-T.yaml, hash: 'sha256:c385c0560b88f47faccc8f26ad8c5e55ededc75e8144ea6750e68fd3fa477fb5'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6k0055_000-T.markers.yaml, hash: 'sha256:bdb2a2e0b84d903f88a16eb3953ceffc936eaf6b507d961c6722778dfe0db050'}
+  - {seq: 1, role: markers, filename: assets/KR6k0055_001-T.markers.yaml, hash: 'sha256:c9e779253c3c37dbc3a1f22133d5e0ecde52201a16b8f0f0bb1e5ec87be5293e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0055_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 589
+  label: 佛說犯戒罪報輕重經
+  type: juan
+  level: 1
+hash: sha256:991567a8a22ce2476653463aa8a8908a005820e1e25f33300963ac45eca2b473
