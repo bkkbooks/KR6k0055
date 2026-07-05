@@ -37,9 +37,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0055_000.yaml, hash: 'sha256:dd08bcc7d0e70abfd42d9015974a978ebdf1dfd6165067ca8a489f74c7329062'}
-  - {seq: 1, filename: KR6k0055_001.yaml, hash: 'sha256:499b91869ffbc4edb1e0671bd64dbddd12c008e72c15a707a5ff2b1abbc08d27'}
+  - {seq: 1, filename: KR6k0055_001.yaml, hash: 'sha256:c385c0560b88f47faccc8f26ad8c5e55ededc75e8144ea6750e68fd3fa477fb5'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6k0055_001.markers.yaml, hash: 'sha256:0892795e12e47b2525076ed53de51a60384315cd5a3b1feab1deec433834d00d'}
+  - {seq: 0, role: markers, filename: assets/KR6k0055_000.markers.yaml, hash: 'sha256:5227087bff4ad10163cf2a3851234f60ab050f22bd99e99c31aa8013f51528f7'}
+  - {seq: 1, role: markers, filename: assets/KR6k0055_001.markers.yaml, hash: 'sha256:d347a06c425fe7e5c1c8f5ed7719922d07d2d910a6b8be8fc067726e1b2a5e08'}
 table_of_contents:
 - ref:
     seq: 1
@@ -51,7 +52,4 @@ table_of_contents:
   label: 佛說犯戒罪報輕重經
   type: juan
   level: 1
-hash: sha256:e48cd6b390c92baf49c7d51fb3f9ac4c539b76c0357cc84f5a31f8d1fdc6371f
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:86b187bb2b6d1f9ef3e510a2defe5102776f241206c63ad6e7e3651b476e12f9
