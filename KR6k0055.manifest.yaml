@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6k0055/v1
 canonical_location: https://kanripo.org/bkk/KR6k0055/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說犯戒罪報輕重經
   identifiers:
@@ -37,10 +37,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0055_000.yaml, hash: 'sha256:dd08bcc7d0e70abfd42d9015974a978ebdf1dfd6165067ca8a489f74c7329062'}
-  - {seq: 1, filename: KR6k0055_001.yaml, hash: 'sha256:c385c0560b88f47faccc8f26ad8c5e55ededc75e8144ea6750e68fd3fa477fb5'}
+  - {seq: 1, filename: KR6k0055_001.yaml, hash: 'sha256:821cd3a97d007eff957512fb5301ebe17fbe3ec0ffa7b8afc35531c71bdc76f7'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6k0055_000.markers.yaml, hash: 'sha256:5227087bff4ad10163cf2a3851234f60ab050f22bd99e99c31aa8013f51528f7'}
-  - {seq: 1, role: markers, filename: assets/KR6k0055_001.markers.yaml, hash: 'sha256:d347a06c425fe7e5c1c8f5ed7719922d07d2d910a6b8be8fc067726e1b2a5e08'}
+  - {seq: 1, role: markers, filename: assets/KR6k0055_001.markers.yaml, hash: 'sha256:3c90d53bffd44dbf34e14dce91a0d78ccb4da22230714a9f31600a8e20016349'}
 table_of_contents:
 - ref:
     seq: 1
@@ -52,4 +52,7 @@ table_of_contents:
   label: 佛說犯戒罪報輕重經
   type: juan
   level: 1
-hash: sha256:86b187bb2b6d1f9ef3e510a2defe5102776f241206c63ad6e7e3651b476e12f9
+hash: sha256:825f6ac68c1d1a3eb720791788331681f740d972ba0b966209fea05899239ec8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
